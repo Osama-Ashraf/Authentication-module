@@ -7,10 +7,10 @@ if(JSON.parse(localStorage.getItem('Users')) != null){
 }
 
 if (document.title == 'Sign up'){
-    var regName = document.getElementById('regName').value ='';
-    var regEmail = document.getElementById('regEmail').value ='';
-    var regPassword = document.getElementById('regPassword').value ='';
-    var regAlert = document.getElementById('regAlert').value ='';
+    var regName = document.getElementById('regName');
+    var regEmail = document.getElementById('regEmail');
+    var regPassword = document.getElementById('regPassword');
+    var regAlert = document.getElementById('regAlert');
     var btnReg = document.getElementById('btnReg');
 
     btnReg.addEventListener('click' , function(eventInfo){
